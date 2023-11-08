@@ -17,6 +17,7 @@ export const config: Config = {
     {
       type: 'www',
       serviceWorker: null, // disable service workers
+      copy: [{src: 'dev/**/*.html', dest:'.', keepDirStructure:true}]
     },
   ],
   testing: {
